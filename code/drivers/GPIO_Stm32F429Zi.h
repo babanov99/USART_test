@@ -29,7 +29,6 @@ enum PULL_PIN
     PULL_UP = 0b01,
     PULL_DOWN = 0b10
 };
-void giveClockToPort(GPIO_TypeDef *GPIO_using);
 void initGPIO(GPIO_TypeDef *GPIO_using, uint8_t pin_num, enum MODE_PIN mode,
               enum TYPE_PIN type, enum SPEED_PIN speed, enum PULL_PIN pull, uint8_t type_alt);
 #endif

@@ -1,5 +1,6 @@
 #include "GPIO_Stm32F429Zi.h"
 
+void giveClockToPort(GPIO_TypeDef *GPIO_using);
 /// @brief Инициализация пина
 /// @param GPIO_using Адрес порта
 /// @param pin_num Номер пина

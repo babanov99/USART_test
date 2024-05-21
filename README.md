@@ -1,2 +1,2 @@
 # USART_test
-Задание с собеседования
+The assignment from the interview
